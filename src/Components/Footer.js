@@ -32,7 +32,7 @@ export default function Footer()
                     </div>
                     <div className="return-to-top">
                         <h3>Powrót na górę</h3>
-                        <img onClick={() => {window.scrollTo({ top: 0, behavior: 'smooth' })}} className="square" src={blackArrow}></img>
+                        <img alt="sth" onClick={() => {window.scrollTo({ top: 0, behavior: 'smooth' })}} className="square" src={blackArrow} ></img>
                     </div>
                 </div>
                 <div className="bottom-line">
