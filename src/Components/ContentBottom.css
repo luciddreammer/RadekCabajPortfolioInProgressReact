@@ -1,0 +1,107 @@
+.arrow-button {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.arrow-button-second {
+    display: flex;
+    position: relative;
+    margin-bottom: 70px;
+    justify-content: left;
+}
+
+.more-projects {
+    border: 1px solid black;
+    width: 225px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    transition: 0.4s;
+    margin-left: 70px;
+}
+
+.more-projects-second {
+    border: 1px solid black;
+    width: 225px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    transition: 0.4s;
+    margin-left: 70px;
+}
+
+.more-projects:hover, .more-projects-second:hover {
+    color: white;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.more-projects:hover + .arrow{
+    right: 265px;
+    transition: 0.4s;
+}
+.more-projects-second:hover + .arrow-second{
+    left: 40px;
+    transition: 0.4s;
+}
+
+.arrow {
+    position: relative;
+    top: 0px;
+    right: 300px;
+    transition: 0.4s;
+}
+
+.arrow-second {
+    position: absolute;
+    top: 30px;
+    left: 0vw;
+    transition: 0.4s;
+}
+
+.left-small-text-content-bottom {
+    max-width: 800px;
+    font-size: 24px;
+}
+
+.text-content-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -15px;
+}
+
+.what-i-am-doing-text {
+    border-bottom: 1px solid black;
+    /* ewentualnie zmienic na underline */
+    max-width: fit-content;
+}
+
+.right-text-content-bottom {
+    text-align: left;
+    width: 550px;
+}
+
+
+.text-with-arrow {
+    display: flex;
+    flex-direction: row;
+    line-height: 0px;
+    margin-bottom: -10px;
+}
+.small-arrow {
+    margin-right: 10px;
+    margin-top: 2px;
+    align-self: center;
+}
+
+.i-am-doing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+

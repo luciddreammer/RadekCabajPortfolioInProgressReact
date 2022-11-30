@@ -1,0 +1,14 @@
+.app {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+.app {
+    font-family: helvetica;
+}
+
+@font-face {
+    font-family: helvetica;
+    src: url(../Source/././FontLight.ttf);
+}
