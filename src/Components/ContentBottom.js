@@ -10,7 +10,7 @@ export default function ContentBottom()
         <div>
            <div className='arrow-button'>
                 <h3 className='more-projects'>WIĘCEJ PROJEKTÓW</h3>
-                <img className="arrow" src={arrow}></img>
+                <img className="arrow" src={arrow} alt="sth"></img>
             </div>
             <div className='text-content-bottom'>
                 <div className='left-text-content-bottom'>
@@ -26,7 +26,7 @@ export default function ContentBottom()
             </div>
             <div className='arrow-button-second'>
                 <h3 className='more-projects-second'>DOWIEDZ SIĘ WIĘCEJ</h3>
-                <img className="arrow-second" src={arrow}></img>
+                <img className="arrow-second" src={arrow} alt="sth"></img>
             </div>
         </div>
     )

@@ -28,7 +28,7 @@ export default function Footer()
                     <div></div>
                     <div className='arrow-button-footer'>
                         <h3 className='more-projects-footer'>SKONTAKTUJ SIĘ</h3>
-                        <img className="arrow-footer" src={arrow}></img>
+                        <img className="arrow-footer" src={arrow} alt="sth"></img>
                     </div>
                     <div className="return-to-top">
                         <h3>Powrót na górę</h3>

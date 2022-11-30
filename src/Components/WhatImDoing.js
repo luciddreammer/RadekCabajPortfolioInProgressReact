@@ -4,7 +4,7 @@ export default function WhatImDoing({text})
 {
     return(
         <div className='text-with-arrow'>
-            <img className='small-arrow' src={smallArrow}></img>
+            <img className='small-arrow' src={smallArrow} alt="sth"></img>
             <p>{text}</p>
         </div>
     )
