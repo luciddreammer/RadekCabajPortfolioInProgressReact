@@ -1,4 +1,3 @@
-import Navbar from './Navbar/Navbar'
 import './App.css'
 import Content from "./Content"
 import Footer from './Footer/Footer'
