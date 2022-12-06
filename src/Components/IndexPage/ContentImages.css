@@ -1,0 +1,32 @@
+.img-container {
+    /* margin-top: 70px;
+    justify-items: center;
+    display: grid;
+	/* grid-template-rows: 30% 30% 30%;
+	grid-template-columns: 49.5% 49.5%;
+	grid-row-gap: 5%;
+	grid-column-gap: 1%;
+    margin-bottom: 3%;
+    align-items: center; */
+
+    /* grid-template-rows: 30vw 30vw 30vw;
+	grid-template-columns: 50% 50%;
+	grid-row-gap: 4vw;
+	grid-column-gap: 2vw;
+    margin-bottom: 3vw;
+    align-items: center; */ 
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.single-img-in-container {
+    width: 49.5%;
+    margin-right: 1vw;
+    margin-bottom: 2vw;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}

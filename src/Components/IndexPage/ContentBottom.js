@@ -1,6 +1,6 @@
 import './ContentBottom.css'
 import IAmDoing from './IAmDoing'
-import arrow from '../Source/strzalka_nawigacja.svg'
+import arrow from '../../Source/strzalka_nawigacja.svg'
 
 
 

@@ -1,6 +1,6 @@
-import "./Footer.css"
-import arrow from '../Source/strzalka_button_biala.svg'
-import blackArrow from '../Source/strzalka_button_czarna.svg'
+import arrow from '../../Source/strzalka_button_biala.svg'
+import blackArrow from '../../Source/strzalka_button_czarna.svg'
+import './Footer.css'
 
 
 export default function Footer()

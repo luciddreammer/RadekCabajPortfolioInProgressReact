@@ -1,14 +1,17 @@
-import Navbar from "./Navbar"
+import Navbar from './Navbar/Navbar'
 import './App.css'
 import Content from "./Content"
+import Footer from './Footer/Footer'
 
 
 export default function App()
 {
     return(
-        <div className="app">
-            <Navbar/>
-            <Content/>
+        <div>
+            <div className='app'>
+                <Content/>
+            </div>
+            <Footer/>
         </div>
     )
 }
