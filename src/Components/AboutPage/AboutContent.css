@@ -1,0 +1,14 @@
+.about-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.middle-text {
+    width: 500px;
+}
+
+.right-text {
+    width: 500px;
+}
