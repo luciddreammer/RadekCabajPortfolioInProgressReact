@@ -1,5 +1,5 @@
 
-import radekCabajImage from '/csz/react/RadekCabajPortfolioInProgressReact/src/Source/me.png'
+import radekCabajImage from '../../Source/me.png'
 
 
 export default function AboutImg()

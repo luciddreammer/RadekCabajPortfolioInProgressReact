@@ -1,7 +1,7 @@
 import './ContactPage.css'
 
 
-export default function ()
+export default function ContactLeft()
 {
     return(
         <div className="contact-left">
