@@ -2,6 +2,7 @@
     margin-left: 120px;
     margin-right: 120px;
     margin-top: 10px;
+    letter-spacing: 1px;
 }
 
 .app {
@@ -10,17 +11,10 @@
 
 @font-face {
     font-family: helvetica;
-    src: url(../Source/./././fonts/FontThin.ttf);
-}
-
-
-@font-face {
-    font-family: grotesk;
-    src: url(../Source/./././Helvetica-Bold.ttf);
+    src: url(../Source/./././helvetica.ttf);
 }
 
 @font-face {
-    font-family: h3light;
-    src: url(../Source/./././fonts/FontThin.ttf);
+    font-family: helvetica-bold;
+    src: url(../Source//Helvetica-Bold.ttf);
 }
-

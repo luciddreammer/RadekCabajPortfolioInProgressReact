@@ -2,8 +2,6 @@ import './ContentBottom.css'
 import IAmDoing from './IAmDoing'
 import arrow from '../../Source/strzalka_nawigacja.svg'
 
-
-
 export default function ContentBottom()
 {
     return(
@@ -17,7 +15,8 @@ export default function ContentBottom()
                     <h1 className='h1-competention'>Kompetencje</h1>
                     <h3 className='left-small-text-content-bottom'>
                         Projektuję systemy identyfikacji wizualnej oraz strony internetowe, głównie dla małych firm oraz osób prywatnych. Oferuję kompleksową obsługę każdego klienta nie tylko w procesie kreacyjnym ale również
-                        przy pracach wdrożeniowych.</h3>
+                        przy pracach wdrożeniowych.
+                    </h3>
                 </div>
                 <div className='right-text-content-bottom'>
                     <h3 className='what-i-am-doing-text'>czym się zajmuję:</h3>

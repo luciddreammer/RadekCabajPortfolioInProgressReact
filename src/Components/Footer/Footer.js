@@ -9,20 +9,20 @@ export default function Footer()
         <div className="footer">
             <div className="inside">
                 <div className="txt-first">
-                    <h1>Potrzebujesz unikalnego wizerunku marki?</h1>
+                    <p className='h1first'>Potrzebujesz unikalnego wizerunku marki?</p>
                 </div>
                 <div className="flex-footer">
                     <div className="txt-second">
-                        <h3>Jestem otwarty na nowe wyzwania! Jeśli chcesz nadać swojej marce charakter poprzez unikalny wizerunek, lub po prostu chcesz porozmawiać o swoim pomyśle - zapraszam do kontaktu oraz niezobowiązującej wyceny projektu.</h3>
+                        <p>Jestem otwarty na nowe wyzwania! Jeśli chcesz nadać swojej marce charakter poprzez unikalny wizerunek, lub po prostu chcesz porozmawiać o swoim pomyśle - zapraszam do kontaktu oraz niezobowiązującej wyceny projektu.</p>
                     </div>
                     <div className="contact-info">
-                        <h3 className="contact">cabajradek@gmail.com</h3>
-                        <h3 className="contact">(+48) 783 647 943</h3>
+                        <p className="contact">cabajradek@gmail.com</p>
+                        <p className="contact">(+48) 783 647 943</p>
                         <div className="white-line"></div>
                     </div>
                 </div>
                 <div className="txt-third">
-                    <h3>Pomogę Ci krok po kroku, tworząc uniklany projekt wysyłający odpowiedni komunikat do klientów</h3>
+                    <p>Pomogę Ci krok po kroku, tworząc uniklany projekt wysyłający odpowiedni komunikat do klientów.</p>
                 </div>
                 <div className="arrow-flex">
                     <div></div>

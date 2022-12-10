@@ -1,6 +1,6 @@
 .footer {
     color: white;
-    background-color: black;
+    background-color: #1a1a1a;
 }
 
 html {
@@ -27,6 +27,7 @@ html {
 .inside {
     margin-left:70px;
     margin-right: 70px;
+    padding-top: 20px;
 }
 
 .white-line {
@@ -39,24 +40,32 @@ html {
 .contact {
     font-size: 25px;
     line-height: 5px;
+
 }
 
 .txt-first {
-    font-size: 25px;
-    margin-bottom: 70px;
+    font-size: 60px;
+    margin-bottom: 45px;
+    font-weight: 700;
+    font-family: helvetica-bold;
 }
 
 .txt-second {
     /* width: 160vw; */
-    min-width: 900px;
-    width: 900px;
-    font-size: 20px;
-    margin-bottom: 35px;
+    min-width: 1050px;
+    width: 1050px;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: -10px;
+    font-weight: 400;
 }
 
 .txt-third {
-    max-width: 55%;
+    max-width: 60%;
     font-size: 20px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
 }
 
 .more-projects-footer{
@@ -109,10 +118,6 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.split-bottom-left{
-
 }
 
 .split-bottom-right {

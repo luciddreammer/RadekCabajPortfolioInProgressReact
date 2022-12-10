@@ -3,7 +3,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: -5px;
+    margin-bottom: 57px;
+    font-family: helvetica;
 }
 
 .nav-img {
@@ -26,6 +27,11 @@
     text-decoration: none;
     color: black;
 }
+
+.clean-text:hover {
+    text-decoration: underline;
+}
+
 
 .h3-weight {
     font-weight: 600;

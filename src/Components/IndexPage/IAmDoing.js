@@ -24,19 +24,19 @@ export default function IAmDoing()
                         </div>
                         <div className='i-am-doing-left'>
                             <WhatImDoing 
-                            text = "znak graficzny - logo"
+                            text = "web design"
                             />
                             <WhatImDoing 
-                            text = "identyfikacja wizualna"
+                            text = "wdrożenia stron"
                             />
                             <WhatImDoing 
-                            text = "redesign"
+                            text = "typografia"
                             />
                             <WhatImDoing 
-                            text = "księga znaku"
+                            text = "stała obsługa graficzna"
                             />
                             <WhatImDoing 
-                            text = "katalogi, publikacje"
+                            text = "materiały drukowane"
                             />
                         </div>
                     </div>

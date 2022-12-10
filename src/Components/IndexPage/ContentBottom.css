@@ -1,7 +1,6 @@
 .title-h1 {
     font-weight: 100;
-    font-family: grotesk;
-    font-size: 60px;
+    font-size: 70px;
 }
 
 .arrow-button {
@@ -13,7 +12,7 @@
 .arrow-button-second {
     display: flex;
     position: relative;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     justify-content: left;
 }
 
@@ -21,24 +20,24 @@
     border: 1px solid black;
     width: 225px;
     text-align: center;
-    padding: 12px 10px;
-    border-radius: 25px;
-    font-size: 17px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 20px;
     transition: 0.4s;
     margin-left: 30px;
-    font-weight: 400;
+    font-weight: 100;
 }
 
 .more-projects-second {
     border: 1px solid black;
     width: 225px;
     text-align: center;
-    padding: 12px 0px;
-    border-radius: 25px;
-    font-size: 17px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 20px;
     transition: 0.4s;
-    margin-left: 50px;
-    font-weight: 400;
+    margin-left: 45px;
+    font-weight: 100;
 }
 
 .more-projects:hover, .more-projects-second:hover {
@@ -48,34 +47,35 @@
 }
 
 .more-projects:hover + .arrow{
-    right: 280px;
+    right: 310px;
     transition: 0.4s;
 }
 .more-projects-second:hover + .arrow-second{
-    left: 15px;
+    left: 10px;
     transition: 0.4s;
 }
 
 .arrow {
     position: relative;
     top: 0px;
-    right: 295px;
+    right: 320px;
     transition: 0.4s;
 }
 
 .arrow-second {
     position: absolute;
-    top: 30px;
+    top: 40px;
     left: 0vw;
     transition: 0.4s;
 }
 
 .left-small-text-content-bottom {
-    max-width: 700px;
-    font-size: 24px;
-    font-family: h3light;
-    font-weight: 600;
+    max-width: 900px;
+    font-weight: 100;
     margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-size: 30px;
 }
 
 .text-content-bottom {
@@ -90,13 +90,16 @@
     /* ewentualnie zmienic na underline */
     max-width: fit-content;
     font-weight: 100;
-    font-size: 23px;
-    margin-top: 45px;
+    line-height: 30px;
+    font-size: 30px;
+    margin-top: 55px;
 }
 
 .right-text-content-bottom {
     text-align: left;
-    width: 450px;
+    width: 600px;
+    font-weight: 700;
+    margin-right: 10px;
 }
 
 .text-with-arrow {
@@ -116,27 +119,28 @@
     flex-direction: row;
     justify-content: space-between;
     margin-right: 10px;
+    margin-top: 33px;
 }
 
 .small-text {
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 600;
     margin-top: 30px;
 }
 
 .h1-competention {
-    font-family: grotesk;
-    font-weight: 10;
-    font-size: 40px;
+    font-weight: 100;
+    font-size: 50px;
 }
 
 .h3-competention {
-    font-family: grotesk;
-    font-weight: 10;
+    font-weight: 100;
     font-size: 40px;
 }
 
 .p-imdoing {
-    font-size: 16px;
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
 }
 
