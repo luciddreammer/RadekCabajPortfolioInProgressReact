@@ -21,11 +21,11 @@
     border: 1px solid black;
     width: 225px;
     text-align: center;
-    padding: 12px 0px;
+    padding: 12px 10px;
     border-radius: 25px;
     font-size: 17px;
     transition: 0.4s;
-    margin-left: 70px;
+    margin-left: 30px;
     font-weight: 400;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .more-projects:hover + .arrow{
-    right: 270px;
+    right: 280px;
     transition: 0.4s;
 }
 .more-projects-second:hover + .arrow-second{
@@ -59,7 +59,7 @@
 .arrow {
     position: relative;
     top: 0px;
-    right: 300px;
+    right: 295px;
     transition: 0.4s;
 }
 
@@ -75,13 +75,14 @@
     font-size: 24px;
     font-family: h3light;
     font-weight: 600;
+    margin-top: 30px;
 }
 
 .text-content-bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: -15px;
+    margin-top: -5px;
 }
 
 .what-i-am-doing-text {
@@ -120,6 +121,7 @@
 .small-text {
     font-size: 23px;
     font-weight: 600;
+    margin-top: 30px;
 }
 
 .h1-competention {
