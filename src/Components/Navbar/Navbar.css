@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 57px;
+    font-size: 30px;
     font-family: helvetica;
 }
 
@@ -19,8 +20,8 @@
     width: 40%;
     /* background-color: red; */
     justify-content: space-between;
-    font-size: 20px;
-    margin-top: -2px;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .clean-text {
@@ -34,5 +35,6 @@
 
 
 .h3-weight {
-    font-weight: 600;
+    font-weight: 400;
+    margin-top: 22px;
 }

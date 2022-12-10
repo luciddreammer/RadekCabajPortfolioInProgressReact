@@ -1,6 +1,7 @@
 .title-h1 {
-    font-weight: 100;
-    font-size: 70px;
+    font-weight: 700;
+    font-family: helvetica-bold;
+    font-size: 60px;
 }
 
 .arrow-button {
@@ -112,6 +113,8 @@
     margin-right: 10px;
     margin-top: 2px;
     align-self: center;
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .i-am-doing {
@@ -124,8 +127,9 @@
 
 .small-text {
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 400;
     margin-top: 30px;
+    font-family: helvetica;
 }
 
 .h1-competention {

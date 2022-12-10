@@ -11,10 +11,10 @@ export default function Navbar() {
             <Link to={'/'}><img className='logo-img' src={logo} alt="RadekCabajLogo"></img></Link> 
             </div>
             <div className='nav-text'>
-                <Link className='clean-text' to={'portfolio'}><h3 className='h3-weight'>Portfolio</h3></Link>
-                <Link className='clean-text' to={'competence'}><h3 className='h3-weight' >Kompetencje</h3></Link>
-                <Link className='clean-text' to={'about'}><h3 className='h3-weight' >O mnie</h3></Link>
-                <Link className='clean-text' to={'contact'}><h3 className='h3-weight' >Kontakt</h3></Link>
+                <Link className='clean-text' to={'portfolio'}><p className='h3-weight'>Portfolio</p></Link>
+                <Link className='clean-text' to={'competence'}><p className='h3-weight' >Kompetencje</p></Link>
+                <Link className='clean-text' to={'about'}><p className='h3-weight' >O mnie</p></Link>
+                <Link className='clean-text' to={'contact'}><p className='h3-weight' >Kontakt</p></Link>
             </div>
         </div>
     )
