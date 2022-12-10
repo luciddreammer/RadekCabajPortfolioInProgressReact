@@ -10,5 +10,17 @@
 
 @font-face {
     font-family: helvetica;
-    src: url(../Source/././FontLight.ttf);
+    src: url(../Source/./././fonts/FontThin.ttf);
 }
+
+
+@font-face {
+    font-family: grotesk;
+    src: url(../Source/./././Helvetica-Bold.ttf);
+}
+
+@font-face {
+    font-family: h3light;
+    src: url(../Source/./././fonts/FontThin.ttf);
+}
+

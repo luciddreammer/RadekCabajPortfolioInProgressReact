@@ -14,13 +14,18 @@
     min-width: 600px;
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 40%;
     /* background-color: red; */
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 24px;
+    margin-top: -4px;
 }
 
 .clean-text {
     text-decoration: none;
     color: black;
+}
+
+.h3-weight {
+    font-weight: 600;
 }

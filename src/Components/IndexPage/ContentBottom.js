@@ -14,7 +14,7 @@ export default function ContentBottom()
             </div>
             <div className='text-content-bottom'>
                 <div className='left-text-content-bottom'>
-                    <h1>Kompetencje</h1>
+                    <h1 className='h1-competention'>Kompetencje</h1>
                     <h3 className='left-small-text-content-bottom'>
                         Projektuję systemy identyfikacji wizualnej oraz strony internetowe, głównie dla małych firm oraz osób prywatnych. Oferuję kompleksową obsługę każdego klienta nie tylko w procesie kreacyjnym ale również
                         przy pracach wdrożeniowych.</h3>

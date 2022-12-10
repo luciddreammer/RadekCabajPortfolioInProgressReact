@@ -17,7 +17,7 @@
     align-items: center; */ 
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .single-img-in-container {
