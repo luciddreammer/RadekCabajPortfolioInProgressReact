@@ -17,17 +17,19 @@
     align-items: center; */ 
     display: flex;
     flex-direction: column;
-    margin-top: 65px;
+    justify-content: space-between;
+    margin-top: 75px;
 }
 
 .single-img-in-container {
-    width: 49.5%;
-    margin-right: 1vw;
-    /* margin-bottom: 1vw; */
-    margin-bottom: 20px;
+     width: 49.5%;
+    /* margin-right: 1vw; */
+    margin-bottom: 1%;
+    /* margin-bottom: 20px;  */
 }
 
 .row-flex {
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
 }
