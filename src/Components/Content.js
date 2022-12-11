@@ -28,11 +28,12 @@ const router = createBrowserRouter([
             },
             {
                 path: "/portfolio",
-                element: <PortfolioContent/>
+                element: <CompetenceContent/>
             },
             {
                 path: "/competence",
-                element: <CompetenceContent/>
+                element: <PortfolioContent/>
+
             },
             {
                 path: "/about",

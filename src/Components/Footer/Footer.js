@@ -39,13 +39,13 @@ export default function Footer()
                 </div>
                 <div className="split-bottom">
                     <div className="split-bottom-left">
-                        <h3>©2022 by Radek Cabaj</h3>
+                        <p className='text-footer-bottom'>©2022 by Radek Cabaj</p>
                     </div>
                     <div className="split-bottom-right">
-                        <h3>cabajradek@gmail.com</h3>
-                        <h3>(+48) 783 647 943</h3>
-                        <h3>Instagram</h3>
-                        <h3>Behance</h3>
+                        <p className='text-footer-bottom'>cabajradek@gmail.com</p>
+                        <p className='text-footer-bottom'>(+48) 783 647 943</p>
+                        <p className='text-footer-bottom'>Instagram</p>
+                        <p className='text-footer-bottom'>Behance</p>
                     </div>
 
                 </div>

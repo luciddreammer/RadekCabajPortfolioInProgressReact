@@ -3,6 +3,11 @@
     background-color: #1a1a1a;
 }
 
+@font-face {
+    font-family: helvetica;
+    src: url(/src/Source/helvetica.ttf);
+}
+
 html {
     /* background-color: black; */
 }
@@ -27,7 +32,7 @@ html {
 .inside {
     margin-left:70px;
     margin-right: 70px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .white-line {
@@ -47,7 +52,6 @@ html {
 .returntotoptext {
     font-family: helvetica;
     font-size: 20px;
-    font-weight: 100;
     margin-left: 40px;
     margin-top: 30px;
 }
@@ -61,9 +65,9 @@ html {
 
 .txt-first {
     font-size: 60px;
-    margin-bottom: 45px;
     font-weight: 700;
     font-family: helvetica-bold;
+    margin-bottom: -20px;
 }
 
 .txt-second {
@@ -117,7 +121,8 @@ html {
 }
 
 .bottom-line {
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
 }
 
 .empty {
@@ -151,6 +156,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: -70px;
 }
 
 .return-to-top {
@@ -171,6 +177,12 @@ html {
     height: 40px;
     margin-right: -70px;
     cursor: pointer;
+}
+
+.text-footer-bottom {
+    font-family: helvetica;
+    font-weight: 100;
+    font-size: 20px;
 }
 
 
