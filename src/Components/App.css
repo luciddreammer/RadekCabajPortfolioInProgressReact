@@ -18,3 +18,8 @@
     font-family: helvetica-bold;
     src: url(../Source//Helvetica-Bold.ttf);
 }
+
+@font-face {
+    font-family: helvetica-l;
+    src: url(../Source/helvetica-light.ttf);
+}

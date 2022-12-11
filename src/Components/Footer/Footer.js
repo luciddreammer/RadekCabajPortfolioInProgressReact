@@ -17,7 +17,7 @@ export default function Footer()
                     </div>
                     <div className="contact-info">
                         <p className="contact">cabajradek@gmail.com</p>
-                        <p className="contact">(+48) 783 647 943</p>
+                        <p className="contactTwo">(+48) 783 647 943</p>
                         <div className="white-line"></div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ export default function Footer()
                         <img className="arrow-footer" src={arrow} alt="sth"></img>
                     </div>
                     <div className="return-to-top">
-                        <h3>Powrót na górę</h3>
+                        <p className='returntotoptext'>Powrót na górę</p>
                         <img alt="sth" onClick={() => {window.scrollTo({ top: 0, behavior: 'smooth' })}} className="square" src={blackArrow} ></img>
                     </div>
                 </div>

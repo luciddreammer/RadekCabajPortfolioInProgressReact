@@ -7,7 +7,7 @@ export default function ContentBottom()
     return(
         <div>
            <div className='arrow-button'>
-                <h3 className='more-projects'>WIĘCEJ PROJEKTÓW</h3>
+                <p className='more-projects'>WIĘCEJ PROJEKTÓW</p>
                 <img className="arrow" src={arrow} alt="sth"></img>
             </div>
             <div className='text-content-bottom'>

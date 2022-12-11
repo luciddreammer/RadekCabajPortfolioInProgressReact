@@ -38,9 +38,25 @@ html {
 }
 
 .contact {
-    font-size: 25px;
-    line-height: 5px;
+    font-size: 26px;
+    font-family: helvetica;
+    margin-top: 43px;
+    line-height: 2px;
+}
 
+.returntotoptext {
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.contactTwo {
+    font-size: 26px;
+    font-family: helvetica;
+    margin-top: -5px;
+    margin-bottom: 15px;
 }
 
 .txt-first {
@@ -52,18 +68,19 @@ html {
 
 .txt-second {
     /* width: 160vw; */
-    min-width: 1050px;
+    min-width: 1020px;
     width: 1050px;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 40px;
     margin-bottom: -10px;
     font-weight: 400;
 }
 
 .txt-third {
-    max-width: 60%;
+    max-width: 50%;
+    min-width: 1000px;
     font-size: 20px;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 40px;
     font-weight: 400;
 }
@@ -72,10 +89,12 @@ html {
     border: 1px solid white;
     width: 225px;
     text-align: center;
-    padding: 5px;
-    border-radius: 25px;
+    padding: 15px 35px;
+    border-radius: 50px;
     font-size: 20px;
-    transition: 0.3s;
+    transition: 0.4s;
+    margin-left: 30px;
+    font-weight: 100;
     margin-left: 70px;
 }
 
@@ -87,14 +106,14 @@ html {
 
 .arrow-footer {
     position: relative;
-    right: 310px;
+    right: 355px;
     transition: 0.4s;
-    top: 27px;
+    top: 37px;
     height: 20px;
 }
 
 .more-projects-footer:hover + .arrow-footer {
-    right: 280px;
+    right: 340px;
 }
 
 .bottom-line {
