@@ -3,6 +3,8 @@ import ContentText from '../IndexPage/ContentText'
 import ContentImages from '../IndexPage/ContentImages'
 import ContentBottom from '../IndexPage/ContentBottom'
 
+
+
 export default function IndexContent()
 {
     return(
@@ -13,5 +15,6 @@ export default function IndexContent()
                 <ContentBottom/>
             </div>
         </div>
+        
     )
 }

@@ -4,8 +4,6 @@ import AboutText from "./AboutText";
 import AboutAchievements from "./AboutAchievements";
 
 
-
-
 export default function AboutContent()
 {
     return(

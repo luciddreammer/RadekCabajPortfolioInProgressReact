@@ -3,9 +3,10 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
+    font-family: helvetica;
 }
 .contact-left {
-    width: 500px;
+    width: 630px;
 }
 .contact-right {
     width: 500px;
@@ -15,5 +16,33 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 500px;
+    margin-bottom: 50px;
 }
 
+.lets-meet {
+    font-family: helvetica-bold;
+    font-size: 65px;
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+.imopen {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    line-height: 27px;
+}
+
+.contact-social-media {
+    font-family: helvetica-bold;
+    font-size: 25px;
+    font-weight: 10;
+    letter-spacing: 0.2px;
+}
+
+.single-arrow {
+    font-size: 15px;
+    font-family: helvetica;
+    letter-spacing: 0.3px;
+}
