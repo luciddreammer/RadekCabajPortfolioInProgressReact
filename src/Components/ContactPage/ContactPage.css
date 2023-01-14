@@ -7,9 +7,11 @@
 }
 .contact-left {
     width: 630px;
+    min-width: 630px;
+    letter-spacing: 0.2px;
 }
 .contact-right {
-    width: 500px;
+    width: 800px;
 }
 
 .left-flex {
@@ -22,14 +24,14 @@
 
 .lets-meet {
     font-family: helvetica-bold;
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 100;
     margin-top: 0px;
 }
 
 .imopen {
     font-weight: 500;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     font-size: 25px;
     line-height: 27px;
 }
@@ -45,4 +47,51 @@
     font-size: 15px;
     font-family: helvetica;
     letter-spacing: 0.3px;
+}
+
+.contact-form {
+    all: unset; 
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+    height: 30px;
+    width: 25vw;
+    font-size: 17px;
+    min-width: 200px;
+}
+
+textarea::placeholder {
+    all:unset;
+    color: black !important;
+    font-weight: 200;
+
+  }
+
+#forms {
+}
+
+#single-form-third {
+    width: 40vw;
+    min-width: 400px;
+    height: 100px;
+    white-space: normal;
+    margin-bottom: 30px;
+}
+
+.form-text-main {
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-weight: 100;
+    font-family: helvetica-bold;
+    letter-spacing: 0.1px;
+}
+
+#custom-btn {
+   color: white;
+   padding: 10px 70px;
+   background-color: black;
+   border-radius: 20px;
+   border: none;
+   font-size: 17px; 
+   font-family: helvetica;
+   font-weight: 100;
 }
